@@ -1,0 +1,75 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Díaz de Sandi León Maximiliano
+    tagline: Estudiante
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: maximiliano.diazdesandi7537@alumnos.udg.mx
+    phone: 123456789
+    timezone: Jalisco/México
+    website: blog.webjeda.com #do not add http://
+    xing: alandoe
+    github: behemothpichula
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Español
+          level: Nativo
+
+        - idiom: Inlgés
+          level: Bien
+
+    interests:
+      title: Interests
+      info:
+        - item: Jugar videojuegos
+          link:
+
+        - item: Escribir
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Actualmente me encuentro estudiando la carrera de Ingeniería en Computación
+      en la Universidad de Guadalajara. Me encuentro en el noveno semestre
+education:
+    title: Education
+    info:
+      - degree: Bachillerato
+        university: Universidad de Guadalajara
+        time: 2016 - 2019
+        details: |
+          Curse el bachillerato en la Preparatoria No. 20.
+
+experiences:
+    title: Experiences
+    info:
+      - role: Practicante
+        time: 2022 - Present
+        company: CreariveSoft, Jalisco
+        details: |
+          Estoy de practicante en la empresa CreativeSoft.
+
+skills:
+    title: Lenguajes
+
+    toolset:
+      - name: C#
+        level: xx%
+
+      - name: Javascript 
+        level: xx%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
