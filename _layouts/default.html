@@ -8,6 +8,24 @@
 {% include head.html %}
 
 <body>
+  <link rel="stylesheet" type="text/css" href="carrusel.css">
+
+  <div class="image-carousel-container">
+    <div class="image-carousel">
+        <div class="image-container">
+          <img src="{{site.baseurl}}/assets/images/Carrusel_IMG1.jpg" alt="Image 1" width="100%">
+         </div>
+      <div class="image-container">
+         <img src="{{site.baseurl}}/assets/images/Carrusel_IMG2.jpg" alt="Image 2" width="100%">
+        </div>
+      <div class="image-container">
+        <img src="{{site.baseurl}}/assets/images/ICarrusel_IMG3.jpg" alt="Image 3" width="100%">
+      </div>
+        <button class="prev-button"><</button>
+        <button class="next-button">></button>
+       </div>
+  </div>
+
   <div class="wrapper">
     {% include sidebar.html %}
 
